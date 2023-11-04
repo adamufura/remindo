@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+
+    height: 12vh;
+    width: 12vh;
+}
+.search_input{
+   border-radius: 5px;
+   padding: 5px;
+}
+
+.signUp-page{
+     background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.8)),  #3459ff;
+}
+        .advert_list_title{
+        font-family: "Bungee Inline", sans-serif;
+            font-weight: 400;
+            font-size: 5rem;
+            color: white;
+            transform: skewY(-5deg);
+            margin-bottom: 6rem;
+            text-align: center;
+            position: relative;
+            word-spacing: 3px;
+
+        }
+        .advert_list_title::before {
+            content: '';
+            display: block;
+            height: 65%;
+            width: 58%;
+            position: absolute;
+            top: 105%;
+            left: 50%;
+            background: linear-gradient(to bottom, #67b26f, #4ca2cd);
+            opacity: .8;
+            z-index: -1;
+            transform: skewY(370deg) translate(-50%, -50%);
+        }
+     .price-frame{
+         border-radius: 20px;
+     }
+     .amount_input{
+         width: 60px !important;
+     }
+     .create-btn{
+         width: 100%;
+     }
+     .form-body{
+         width: 100%;
+     }
+     @media screen and (min-width: 480px) {
+  .form-body {
+   width: 60%;
+  }
+}
+.signUp-btn{
+    width: 100%;
+}
+.body-footer{
+     background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)),  #3459ff;
+}
+.navbar{
+    background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.8)),  #3459ff;
+}
+.header-bg{
+     background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.8)),  url(../images/clocks-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 70vh;
+}
+.header{
+    position: relative;
+    margin-top: 15%;
+}
